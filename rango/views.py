@@ -68,7 +68,7 @@ def show_category(request, category_name_slug):
         context_dict['category'] = None
         context_dict['pages'] = None
     
-    # Go render the response and return it to the client.
+    
     return render(request, 'rango/category.html', context=context_dict)
 
 @login_required
